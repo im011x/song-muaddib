@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "首页",
+    "portfolio": "作品集",
+    "about": "关于",
+    "contact": "联系方式",
+    "toggleMenu": "切换菜单",
+    "switchLanguage": "切换语言"
+  },
+  "hero": {
+    "title": "SONG MUADDIB",
+    "subtitle": "STUDIO",
+    "description": "K-Pop制作的卓越水平。我们创作定义时代的热门歌曲，将创新的声音设计与永恒的音乐艺术性相结合。",
+    "cta1": "查看我们的作品",
+    "cta2": "开始您的项目"
+  },
+  "selectedWorks": {
+    "title": "精选作品",
+    "subtitle": "探索我们的热门制作作品集",
+    "all": "全部",
+    "noTracks": "此类别中没有曲目。",
+    "albumArt": "专辑封面"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您的项目选择完美的套餐",
+    "popular": "最受欢迎",
+    "getStarted": "开始"
+  },
+  "workflow": {
+    "title": "工作流程",
+    "subtitle": "从概念到完成的简化流程",
+    "customer": "客户",
+    "muaddibDefault": "专业服务交付",
+    "customerDefault": "需求提交"
+  },
+  "inquiry": {
+    "title": "立即开始您的项目",
+    "subtitle": "让我们一起创造令人惊叹的作品",
+    "formTitle": "项目咨询",
+    "formDescription": "请填写下面的表格，我们将在24小时内回复您。",
+    "name": "姓名",
+    "email": "电子邮件",
+    "type": "项目类型",
+    "typePlaceholder": "例如：主打歌、B面曲、演示",
+    "message": "留言",
+    "messagePlaceholder": "请告诉我们您的项目...",
+    "send": "发送咨询",
+    "sending": "发送中...",
+    "success": "感谢您的咨询！我们会尽快与您联系。",
+    "error": "发生错误。请重试。"
+  },
+  "studio": {
+    "title": "工作室介绍",
+    "description": "SONG MUADDIB提供K-Pop行业最高水平的作曲和制作服务。"
+  },
+  "portfolio": {
+    "title": "唱片目录",
+    "filter": {
+      "all": "全部",
+      "title": "筛选"
+    },
+    "noTracks": "此类别中没有曲目。",
+    "trackImage": "曲目图片"
+  },
+  "footer": {
+    "copyright": "© 2025 SONG MUADDIB. All rights reserved.",
+    "follow": "关注我们",
+    "tagline": "高级K-Pop作曲工作室",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "soundcloud": "SoundCloud"
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "请发送您的项目咨询或合作建议。",
+    "formTitle": "咨询",
+    "formDescription": "请发送消息，我们会尽快回复。",
+    "name": "姓名",
+    "namePlaceholder": "张三",
+    "email": "电子邮件",
+    "emailPlaceholder": "example@email.com",
+    "message": "留言",
+    "messagePlaceholder": "请输入您的咨询内容...",
+    "send": "发送",
+    "contactInfo": "联系信息",
+    "phone": "电话",
+    "address": "地址",
+    "addressDetail": "首尔特别市江南区<br />德黑兰路123号",
+    "businessHours": "营业时间",
+    "weekdays": "星期一 - 星期五",
+    "saturday": "星期六",
+    "sunday": "星期日",
+    "closed": "休息"
+  },
+  "about": {
+    "title": "工作室介绍",
+    "description": "SONG MUADDIB提供K-Pop行业最高水平的作曲和制作服务。我们使用最先进的设备和专业环境制作最高质量的音乐，基于对各种流派和风格的深刻理解，将艺术家的愿景变为现实。",
+    "description2": "我们不仅制作音乐，更致力于通过音乐表达每位艺术家独特的风格和信息。通过创造力与技术的完美结合，我们创作出下一代K-Pop热门歌曲。",
+    "description3": "与SONG MUADDIB一起，将您的音乐愿景变为现实。"
+  },
+  "admin": {
+    "title": "管理员仪表板",
+    "posts": "管理帖子",
+    "content": "内容管理",
+    "seo": "SEO设置",
+    "settings": "设置"
+  }
+}

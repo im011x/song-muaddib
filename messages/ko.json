@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "홈",
+    "portfolio": "포트폴리오",
+    "about": "소개",
+    "contact": "연락처",
+    "toggleMenu": "메뉴 토글",
+    "switchLanguage": "언어 변경"
+  },
+  "hero": {
+    "title": "SONG MUADDIB",
+    "subtitle": "STUDIO",
+    "description": "K-Pop 프로덕션의 최고 수준. 우리는 세대를 정의하는 히트곡을 만들어냅니다. 혁신적인 사운드 디자인과 시대를 초월한 음악적 예술성을 결합합니다.",
+    "cta1": "작품 보기",
+    "cta2": "프로젝트 시작하기"
+  },
+  "selectedWorks": {
+    "title": "선택된 작품",
+    "subtitle": "우리의 히트 프로덕션 포트폴리오를 탐색하세요",
+    "all": "전체",
+    "noTracks": "이 카테고리에서 트랙을 찾을 수 없습니다.",
+    "albumArt": "앨범 아트"
+  },
+  "services": {
+    "title": "서비스",
+    "subtitle": "프로젝트에 맞는 완벽한 패키지를 선택하세요",
+    "popular": "인기",
+    "getStarted": "시작하기"
+  },
+  "workflow": {
+    "title": "워크플로우",
+    "subtitle": "컨셉부터 완성까지의 효율적인 프로세스",
+    "customer": "고객",
+    "muaddibDefault": "전문 서비스 제공",
+    "customerDefault": "요구사항 제시"
+  },
+  "inquiry": {
+    "title": "지금 프로젝트를 시작하세요",
+    "subtitle": "함께 놀라운 것을 만들어봅시다",
+    "formTitle": "프로젝트 문의",
+    "formDescription": "아래 양식을 작성해주시면 24시간 이내에 답변드리겠습니다.",
+    "name": "이름",
+    "email": "이메일",
+    "type": "프로젝트 유형",
+    "typePlaceholder": "예: 타이틀 트랙, B-Side, 데모",
+    "message": "메시지",
+    "messagePlaceholder": "프로젝트에 대해 알려주세요...",
+    "send": "문의 보내기",
+    "sending": "전송 중...",
+    "success": "문의해주셔서 감사합니다! 곧 연락드리겠습니다.",
+    "error": "오류가 발생했습니다. 다시 시도해주세요."
+  },
+  "studio": {
+    "title": "스튜디오 소개",
+    "description": "SONG MUADDIB는 K-Pop 산업의 최고 수준의 작곡 및 프로덕션 서비스를 제공합니다."
+  },
+  "portfolio": {
+    "title": "디스코그래피",
+    "filter": {
+      "all": "전체",
+      "title": "필터"
+    },
+    "noTracks": "이 카테고리에는 트랙이 없습니다.",
+    "trackImage": "트랙 이미지"
+  },
+  "footer": {
+    "copyright": "© 2025 SONG MUADDIB. All rights reserved.",
+    "follow": "팔로우하기",
+    "tagline": "프리미엄 K-Pop 작곡 스튜디오",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "soundcloud": "SoundCloud"
+  },
+  "contact": {
+    "title": "연락처",
+    "subtitle": "프로젝트 문의나 협업 제안을 보내주세요.",
+    "formTitle": "문의하기",
+    "formDescription": "메시지를 보내주시면 빠르게 답변드리겠습니다.",
+    "name": "이름",
+    "namePlaceholder": "홍길동",
+    "email": "이메일",
+    "emailPlaceholder": "example@email.com",
+    "message": "메시지",
+    "messagePlaceholder": "문의 내용을 입력하세요...",
+    "send": "보내기",
+    "contactInfo": "연락처 정보",
+    "phone": "전화",
+    "address": "주소",
+    "addressDetail": "서울특별시 강남구<br />테헤란로 123",
+    "businessHours": "업무 시간",
+    "weekdays": "월요일 - 금요일",
+    "saturday": "토요일",
+    "sunday": "일요일",
+    "closed": "휴무"
+  },
+  "about": {
+    "title": "스튜디오 소개",
+    "description": "SONG MUADDIB는 K-Pop 산업의 최고 수준의 작곡 및 프로덕션 서비스를 제공합니다. 최신 장비와 전문적인 환경에서 최고 품질의 음악을 제작하며, 다양한 장르와 스타일에 대한 깊은 이해를 바탕으로 아티스트의 비전을 현실로 만들어냅니다.",
+    "description2": "우리는 단순한 음악 제작을 넘어, 각 아티스트의 고유한 스타일과 메시지를 음악으로 표현하는 것을 목표로 합니다. 창의성과 기술의 완벽한 조화를 통해 차세대 K-Pop 히트곡을 만들어갑니다.",
+    "description3": "SONG MUADDIB와 함께 여러분의 음악적 비전을 현실로 만들어보세요."
+  },
+  "admin": {
+    "title": "관리자 대시보드",
+    "posts": "게시물 관리",
+    "content": "콘텐츠 관리",
+    "seo": "SEO 설정",
+    "settings": "설정"
+  }
+}

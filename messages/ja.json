@@ -1,0 +1,109 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "portfolio": "ポートフォリオ",
+    "about": "について",
+    "contact": "お問い合わせ",
+    "toggleMenu": "メニューを切り替え",
+    "switchLanguage": "言語を切り替え"
+  },
+  "hero": {
+    "title": "SONG MUADDIB",
+    "subtitle": "STUDIO",
+    "description": "K-Popプロダクションの最高水準。私たちは世代を定義するヒット曲を作り出します。革新的なサウンドデザインと時代を超えた音楽的芸術性を組み合わせます。",
+    "cta1": "作品を見る",
+    "cta2": "プロジェクトを始める"
+  },
+  "selectedWorks": {
+    "title": "選ばれた作品",
+    "subtitle": "ヒットプロダクションのポートフォリオを探索してください",
+    "all": "すべて",
+    "noTracks": "このカテゴリにはトラックがありません。",
+    "albumArt": "アルバムアート"
+  },
+  "services": {
+    "title": "サービス",
+    "subtitle": "プロジェクトに最適なパッケージを選択してください",
+    "popular": "人気",
+    "getStarted": "始める"
+  },
+  "workflow": {
+    "title": "ワークフロー",
+    "subtitle": "コンセプトから完成までの効率的なプロセス",
+    "customer": "お客様",
+    "muaddibDefault": "専門サービス提供",
+    "customerDefault": "要件提示"
+  },
+  "inquiry": {
+    "title": "今すぐプロジェクトを始めましょう",
+    "subtitle": "一緒に素晴らしいものを作りましょう",
+    "formTitle": "プロジェクトお問い合わせ",
+    "formDescription": "以下のフォームに記入していただければ、24時間以内にご連絡いたします。",
+    "name": "名前",
+    "email": "メール",
+    "type": "プロジェクトタイプ",
+    "typePlaceholder": "例：タイトルトラック、B-Side、デモ",
+    "message": "メッセージ",
+    "messagePlaceholder": "プロジェクトについて教えてください...",
+    "send": "お問い合わせを送信",
+    "sending": "送信中...",
+    "success": "お問い合わせありがとうございます！すぐにご連絡いたします。",
+    "error": "エラーが発生しました。もう一度お試しください。"
+  },
+  "studio": {
+    "title": "スタジオ紹介",
+    "description": "SONG MUADDIBは、K-Pop業界で最高レベルの作曲およびプロダクションサービスを提供します。"
+  },
+  "portfolio": {
+    "title": "ディスコグラフィー",
+    "filter": {
+      "all": "すべて",
+      "title": "フィルター"
+    },
+    "noTracks": "このカテゴリにはトラックがありません。",
+    "trackImage": "トラック画像"
+  },
+  "footer": {
+    "copyright": "© 2025 SONG MUADDIB. All rights reserved.",
+    "follow": "フォローする",
+    "tagline": "プレミアムK-Pop作曲スタジオ",
+    "instagram": "Instagram",
+    "youtube": "YouTube",
+    "soundcloud": "SoundCloud"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "subtitle": "プロジェクトのお問い合わせやコラボレーションの提案をお送りください。",
+    "formTitle": "お問い合わせ",
+    "formDescription": "メッセージをお送りいただければ、迅速にご返信いたします。",
+    "name": "名前",
+    "namePlaceholder": "山田太郎",
+    "email": "メール",
+    "emailPlaceholder": "example@email.com",
+    "message": "メッセージ",
+    "messagePlaceholder": "お問い合わせ内容を入力してください...",
+    "send": "送信",
+    "contactInfo": "連絡先情報",
+    "phone": "電話",
+    "address": "住所",
+    "addressDetail": "ソウル特別市江南区<br />テヘラン路123",
+    "businessHours": "営業時間",
+    "weekdays": "月曜日 - 金曜日",
+    "saturday": "土曜日",
+    "sunday": "日曜日",
+    "closed": "休業"
+  },
+  "about": {
+    "title": "スタジオ紹介",
+    "description": "SONG MUADDIBは、K-Pop業界で最高レベルの作曲およびプロダクションサービスを提供します。最新の設備と専門的な環境で最高品質の音楽を制作し、様々なジャンルとスタイルへの深い理解に基づいて、アーティストのビジョンを現実にします。",
+    "description2": "単なる音楽制作を超えて、各アーティストの独自のスタイルとメッセージを音楽で表現することを目指しています。創造性と技術の完璧な調和を通じて、次世代のK-Popヒット曲を作り出します。",
+    "description3": "SONG MUADDIBと一緒に、あなたの音楽的ビジョンを現実にしましょう。"
+  },
+  "admin": {
+    "title": "管理者ダッシュボード",
+    "posts": "投稿管理",
+    "content": "コンテンツ管理",
+    "seo": "SEO設定",
+    "settings": "設定"
+  }
+}
