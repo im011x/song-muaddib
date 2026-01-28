@@ -1,9 +1,9 @@
 import { setRequestLocale } from 'next-intl/server';
-import { locales } from '@/i18n';
+import { routing } from '@/i18n/routing';
 import AdminDashboard from '@/components/admin/AdminDashboard';
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 export default function AdminPage({

@@ -1,5 +1,5 @@
 import { setRequestLocale } from 'next-intl/server';
-import { locales } from '@/i18n';
+import { routing } from '@/i18n/routing';
 import Hero from '@/components/Hero';
 import SelectedWorks from '@/components/SelectedWorks';
 import OurServices from '@/components/OurServices';
@@ -7,7 +7,7 @@ import WorkflowSteps from '@/components/WorkflowSteps';
 import ProjectInquiry from '@/components/ProjectInquiry';
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 export default function HomePage({

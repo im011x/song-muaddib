@@ -72,6 +72,55 @@ SMTP_PASS=vnht legr eqrv olik
 - `main` 브랜치에 푸시하면 Production 환경에 배포
 - 다른 브랜치에 푸시하면 Preview 환경에 배포
 
+## GitHub 커밋을 Vercel에 재배포하는 방법
+
+### 방법 1: 자동 재배포 (권장)
+1. **GitHub에 푸시**: 변경사항을 GitHub에 푸시하면 Vercel이 자동으로 감지하여 재배포합니다
+   ```bash
+   git push origin main
+   ```
+2. **자동 배포 확인**: Vercel 대시보드에서 배포 상태를 확인할 수 있습니다
+
+### 방법 2: Vercel 대시보드에서 수동 재배포
+1. [Vercel 대시보드](https://vercel.com/dashboard)에 로그인
+2. 프로젝트 선택
+3. **"Deployments"** 탭으로 이동
+4. 재배포하고 싶은 배포(커밋)를 찾습니다
+5. 해당 배포의 **"..."** (점 3개) 메뉴 클릭
+6. **"Redeploy"** 선택
+7. 확인 대화상자에서 **"Redeploy"** 클릭
+
+### 방법 3: 특정 커밋으로 재배포
+1. Vercel 대시보드에서 프로젝트 선택
+2. **"Deployments"** 탭으로 이동
+3. **"Create Deployment"** 버튼 클릭
+4. **"Select Branch"**에서 브랜치 선택 (보통 `main`)
+5. **"Select Commit"**에서 재배포할 커밋 선택
+6. **"Deploy"** 클릭
+
+### 방법 4: Vercel CLI 사용 (선택사항)
+1. Vercel CLI 설치 (아직 설치하지 않은 경우):
+   ```bash
+   npm i -g vercel
+   ```
+2. 프로젝트 디렉토리에서 로그인:
+   ```bash
+   vercel login
+   ```
+3. 배포:
+   ```bash
+   vercel --prod
+   ```
+   또는 특정 커밋을 배포하려면:
+   ```bash
+   vercel --prod --force
+   ```
+
+### 재배포 시 주의사항
+- 환경 변수는 이미 설정되어 있으므로 재배포 시 다시 설정할 필요가 없습니다
+- 빌드 에러가 발생하면 Vercel 대시보드의 빌드 로그를 확인하세요
+- 재배포는 보통 2-5분 정도 소요됩니다
+
 ## 문제 해결
 
 ### 빌드 에러가 발생하는 경우

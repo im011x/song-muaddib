@@ -1,20 +1,22 @@
-'use client';
-
-import { useTranslations } from 'next-intl';
-import { locales } from '@/i18n';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
-import { Label } from '@/components/ui/label';
-import { Button } from '@/components/ui/button';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, MapPin } from 'lucide-react';
+import ContactForm from '@/components/ContactForm';
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
-export default function ContactPage() {
-  const t = useTranslations('contact');
+export default async function ContactPage({
+  params: { locale }
+}: {
+  params: { locale: string };
+}) {
+  // Enable static rendering
+  setRequestLocale(locale);
+  
+  const t = await getTranslations('contact');
   
   return (
     <div className="container mx-auto px-4 pt-24 pb-24 max-w-4xl">
@@ -27,36 +29,7 @@ export default function ContactPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Contact Form */}
-        <Card>
-          <CardHeader>
-            <CardTitle>{t('formTitle')}</CardTitle>
-            <CardDescription>{t('formDescription')}</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <form className="space-y-4">
-              <div>
-                <Label htmlFor="name">{t('name')}</Label>
-                <Input id="name" placeholder={t('namePlaceholder')} className="mt-1" />
-              </div>
-              <div>
-                <Label htmlFor="email">{t('email')}</Label>
-                <Input id="email" type="email" placeholder={t('emailPlaceholder')} className="mt-1" />
-              </div>
-              <div>
-                <Label htmlFor="message">{t('message')}</Label>
-                <Textarea
-                  id="message"
-                  placeholder={t('messagePlaceholder')}
-                  className="mt-1"
-                  rows={5}
-                />
-              </div>
-              <Button type="submit" className="w-full">
-                {t('send')}
-              </Button>
-            </form>
-          </CardContent>
-        </Card>
+        <ContactForm />
 
         {/* Contact Info */}
         <div className="space-y-6">

@@ -1,14 +1,19 @@
-'use client';
-
-import { useTranslations } from 'next-intl';
-import { locales } from '@/i18n';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
+import { routing } from '@/i18n/routing';
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
-export default function AboutPage() {
-  const t = useTranslations('about');
+export default async function AboutPage({
+  params: { locale }
+}: {
+  params: { locale: string };
+}) {
+  // Enable static rendering
+  setRequestLocale(locale);
+  
+  const t = await getTranslations('about');
   
   return (
     <div className="container mx-auto px-4 pt-24 pb-24 max-w-4xl">
