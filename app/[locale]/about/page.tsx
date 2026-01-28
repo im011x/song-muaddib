@@ -1,6 +1,11 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { locales } from '@/i18n';
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export default function AboutPage() {
   const t = useTranslations('about');

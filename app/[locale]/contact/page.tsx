@@ -1,12 +1,17 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { locales } from '@/i18n';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
 import { Button } from '@/components/ui/button';
 import { Mail, Phone, MapPin } from 'lucide-react';
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
 
 export default function ContactPage() {
   const t = useTranslations('contact');

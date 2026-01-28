@@ -1,10 +1,23 @@
+import { setRequestLocale } from 'next-intl/server';
+import { locales } from '@/i18n';
 import Hero from '@/components/Hero';
 import SelectedWorks from '@/components/SelectedWorks';
 import OurServices from '@/components/OurServices';
 import WorkflowSteps from '@/components/WorkflowSteps';
 import ProjectInquiry from '@/components/ProjectInquiry';
 
-export default function HomePage() {
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export default function HomePage({
+  params: { locale }
+}: {
+  params: { locale: string };
+}) {
+  // Enable static rendering
+  setRequestLocale(locale);
+
   return (
     <div className="smooth-scroll">
       <Hero />
